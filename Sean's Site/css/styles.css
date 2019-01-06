@@ -1,0 +1,373 @@
+@charset "utf-8";
+div#container {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 980px;
+}
+div#Ads {
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+div#navfw {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 950px;
+}
+div#navcont {
+	background-image: url(../images/header/mid.png);
+	background-repeat: repeat-x;
+	height: 58px;
+}
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+div#rightColumn {
+	float: right;
+	width: 27%;
+}
+div#leftColumn {
+	float: left;
+	width: 27%;
+}
+div#middleColumn {
+	margin-right: 28%;
+	margin-left: 28%;
+}
+div#newsmiddle {
+	margin: auto;
+}
+div#newscontent {
+	border: thin solid #CCCCCC;
+	margin-top: 10px;
+	padding: 15px;
+	text-align: justify;
+}
+
+
+
+div#topRightColumn {
+	margin-left: 28%;
+}
+div#categories {
+	background-color: #232323;
+	border: 1px solid #CCCCCC;
+}
+
+div#categoriesContent {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000000;
+	border: 1px solid #CCCCCC;
+	margin-top: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#contentTop {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+div#search {
+	float: right;
+	margin-top: 50px;
+}
+
+
+img.headerLeft {
+	float: left;
+}
+div#slidecontainer {
+	border: thin double #CCCCCC;
+	text-align: center;
+}
+
+img.headerRight {
+	float: right;
+}
+
+table#nowShowing {
+	border: thin double #CCCCCC;
+	text-align: center;
+	margin: auto;
+}
+img#nowShowingSlot1, img#nowShowingSlot2, img#nowShowingSlot3, img#nowShowingSlot4, img#nowShowingSlot5, img#nowShowingSlot6, img#nowShowingSlot7 {
+	margin: auto;
+
+}
+h1 {
+	font-size: 19px;
+	font-weight: normal;
+}
+
+
+img#tick {
+	vertical-align: middle;
+	padding: 10px;
+}
+
+
+div#topLeftColumn {
+	float: left;
+	width: 27%;
+}
+div#loginMain {
+	background-image: url(../images/content/login/midlogin.jpg);
+	height: 258px;
+	text-align: center;
+}
+div#logo {
+	float: left;
+}
+
+
+div#categoriesHeading h1 {
+	padding-left: 10%;
+}
+#contentBottom h1 {
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0px;
+}
+div#comingSoonContent {
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	
+	
+}
+h3 {
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+h2 {
+	color: #94CC35;
+}
+
+table#nowShowing td#left {
+	padding-left: 15px;
+}
+div#contact a {
+	color: #ACE44D;
+}
+
+
+
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+
+
+div#comingSoonContent {
+	padding: 5px;
+}
+div#topMoviesContent {
+	background-color: #232323;
+	border: 1px solid #CCCCCC;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+div#comingSoonContent table {
+	text-align: justify;
+	margin-right:auto;
+	Margin-left:auto;
+	padding-bottom: 10px;
+}
+
+div#movie1, div#movie2, div#movie3 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin: 10px;
+	padding-bottom: 10px;
+	
+}
+
+div#loginMain input {
+	margin: 1px;
+}
+div#comingSoon .headerCont  {
+	background: url(../images/content/headerBgs/h2bgmid.jpg);
+	height: 53px;
+}
+div#topMovies .headerCont {
+	background: url(../images/content/headerBgs/topmid.jpg);
+	height: 54px;
+}
+
+
+div#footerside {
+
+}
+
+img#leftfooter {
+	float: left;
+}
+img#rightfooter {
+	float: right;
+}
+.style3 {font-size: 18px}
+
+div#footercontent {
+	background-attachment: scroll;
+	background-image: url(../../Pictures/midfooter.png);
+	background-repeat: repeat-x;
+	height: 80px;
+	width: auto;
+	padding-top: 25px;
+}
+
+table#footertable {
+	text-align: center;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #92CB32;
+	text-decoration: underline;
+}
+
+
+td#hiddensides{
+border-right:2px solid #CCC;
+border-left:0px;
+border-top:0px;
+border-bottom:0px;
+width:100px;
+ }
+td#week {
+	border-left-width: 9px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #999999;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+td#hiddentop {
+	border-top: 0px;
+	border-bottom: 2px solid #CCC;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+td#contact table {
+	margin-bottom: 15px;
+}
+table#newstable {
+	text-align: justify;
+	margin: auto;
+	width: 100%;
+}
+table#nowshowingreview {
+	height: auto;
+	width: auto;
+	text-align: justify;
+	vertical-align: top;
+}
+
+div#newsscroller {
+	margin: 0 auto;
+	padding: 15px;
+}
+div#JPSCROLL_content {
+    width: 80%;
+}div#JPSCROLL_content {
+	width: 200px;
+	margin: 0 auto;
+}
+div#newsscroller {
+	margin-right: 0px;
+	margin-left: auto;
+}
+h6 {
+	color: #94CC35;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+.style4 {font-size: 15px}
+.style5 {
+	color: #94AF1F;
+}
+.style6 {color: #808080}
+
+table#pricetable {
+	border: thin solid #CCCCCC;
+}
+table#weektable {
+	margin-bottom: 10px;
+}
+table#sessiontimes {
+	border: thin double #CCCCCC;
+	margin: auto;
+}
+.style2 {
+	color: #94AF1F;
+	text-decoration: none;
+}
+table#reviews img {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+}
+td#reviewtd {
+	vertical-align: top;
+}
+table#selectmovietable {
+	width: 70%;
+}
+table#ticketpricing {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border: medium double #CCCCCC;
+}
+
+table#selectdaytable {
+	width: 70%;
+	margin-top: 10px;
+}
+table#top10 {
+	width: 100%;
+	text-align: center;
+}

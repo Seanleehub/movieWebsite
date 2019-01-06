@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>Active Scrolling Text & News Scroller by JPowered - Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="images/jpstyle.css">
+</head>
+
+<body>
+<center>
+<div class="outerdiv">
+
+    <table  class="headingCell" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td rowspan="2">
+            <img src="images/jpowered.gif" width="270" height="60" valign="top" align="left" alt="java applet">
+        </td>
+        <td align='right'>
+                          <H1>Active Scrolling Text Documentation</H1>
+        </td>
+    </tr>
+    <tr>
+        <td class="menuCell" valign="top">
+          <img src="images/curve.gif" width="22" height="18" vspace="0" hspace="0" valign="top" align="left" alt="java applets">
+          [<a href="http://www.jpowered.com"> Home </a>]
+          [<a href="http://www.jpowered.com/products.htm"> Products </a>]
+          [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>]
+          [<a href="http://www.jpowered.com/javascript/scrolling-text/buynow.htm"> Purchase </a>]
+          [<a href="http://www.jpowered.com/support.htm"> Support </a>]
+        </td>
+    </tr>
+    </table>
+
+    <div class="maincontent">
+
+        <div class="innermenu">
+            <ul>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/index.htm">Scrolling Text Home</a> </li>
+                <li> <a href="GettingStarted.htm"> Getting Started </a> </li>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/configurator.htm"> Configurator </a> </li>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/buynow.htm"> Licensing </a> </li>
+                <li> <a href="documentation.htm"> Documentation </a> </li>
+            </ul>
+        </div>
+
+		<div>
+		<h2>Welcome to the CSS / JavaScript Scrolling Text Function</h2>
+		</div>
+
+        <div class="pagetitle">
+            <h1>Documentation and Full Parameter Reference</h1>
+        </div>
+
+		<div class="contentp">
+			<div class="heading">Overview</div>
+			This document is intended for Advanced Users who have a good grasp of HTML. The Scrolling Text can be fully configured and added to a page by using the Configurator Tool without any understanding of the following information.
+			We recommend that the vast majority of users use this tool to add Scrolling Text to their pages.
+			<p><a href="http://www.jpowered.com/javascript/scrolling-text/configurator.htm">Use the Online Configurator here &raquo;</a></p>
+		</div>
+
+		<div class="contentp">
+			<div class="heading">Adding the Scrolling Text to a Web Page by hand</div>
+			There are two blocks of html which need to be added to a page. The first is just a script tag which should be placed where you wish the scrolling text to appear.
+			The second block of code should be placed at the very end of a page, ideally just before the &lt;/body&gt; tag. This second block of code contains the main script tag and
+			, the configuration parameters and the content to be scrolled.
+			Below are the two blocks of code. Add these to a page and adjust the parameter values to meet your requirements. (see table below for the function of each parameter).
+
+
+<p>Add the following code where you would like the Scrolling Content to appear
+  in your page<br>
+  <textarea class="textarea" name="textfield" cols="80" rows="2">&lt;script src=&quot;jpscrollhere.js&quot; language=&quot;JavaScript&quot;&gt;&lt;/script&gt;</textarea>
+</p>
+<p>Add all of the following HTML towards the end of your page, ideally just before
+  the &lt;/body&gt; tag <br>
+  <TEXTAREA class="textarea" cols="80" rows="10">
+<!-- scrolling content -->
+<div id="JPSCROLL_content" style="visibility:hidden; height: 100px; width: 1px; overflow:hidden;">
+[ Replace this with the HTML content to be scrolled ]
+</div>
+<!-- scrolling parameters -->
+<div id="JPSCROLL_parameters" style="visibility:hidden; height: 1px; width: 1px; overflow:hidden;">
+	<div id="JPSCROLL_width">200</div>
+	<div id="JPSCROLL_height">200</div>
+	<div id="JPSCROLL_bgcolor">#ffffff</div>
+	<div id="JPSCROLL_bordercolor">#ffffff</div>
+	<div id="JPSCROLL_speed">10</div>
+	<div id="JPSCROLL_borderwidth">1</div>
+	<div id="JPSCROLL_borderstyle">solid</div>
+	<div id="JPSCROLL_bordergap">1</div>
+	<div id="JPSCROLL_alignment">left</div>
+	<div id="JPSCROLL_pagepause">3</div>
+	<div id="JPSCROLL_textcolor">#000000</div>
+	<div id="JPSCROLL_fontsize">11</div>
+	<div id="JPSCROLL_fontfamily">arial, sans-serif</div>
+	<div id="JPSCROLL_fontstyle">normal</div>
+	<div id="JPSCROLL_fontweight">normal</div>
+</div><div style="text-align: center; width: 200px; background-color: #FFFFFF;color: #0000FF;font: normal 10px arial"><a href="http://www.jpowered.com">Scrolling Text provided by JPowered,com</a></div>
+&lt;script src=&quot;jpscroll.js&quot; language=&quot;JavaScript&quot;&gt;&lt;/script&gt;
+</TEXTAREA>
+</p>
+
+		<p>Finally place the two files 'jpscroll.js' and 'jpscrollhere.js' in the same directory as the web page</p>
+
+		</div>
+
+		<div class="contentp">
+			<div class="heading">Free Use or Licensed</div>
+			<p>The Scrolling Text function can be used for Free providing a link to the JPowered web site exists within the page. There are no restrictions on the link
+			and it can be placed anywhere within the page. e.g. at the very end of your page.</p>
+			<p>If you would rather not have a link to the JPowered site within your page then a license key may be purchased. With a license key the scrolling text function may be
+			use within a page without any link or reference to JPowered.</p>
+			<p><a href="http://www.jpowered.com/javascript/scrolling-text/buynow.htm">Purchase a License Key here &raquo;</a></p>
+		</div>
+
+		<div class="contentp">
+			<div class="heading">Support</div>
+			<p>If at any stage you require assistance, help or advice then please feel free contact us via our support pages at:-</p>
+			<p><a href="http://www.jpowered.com/support.htm">JPowered Support &raquo;</a></p>
+		</div>
+
+		<div class="contentp">
+			<div class="heading">Full Parameter Reference</div>
+
+			<table class="paramtable">
+				<tr>
+					<td width="150">Parameter Name</td>
+					<td>Description</td>
+					<td width="150">Range of Values</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_width</td>
+					<td>The width in pixels of the scrolling area</td>
+					<td>Any positive valid integer value eg. 200</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_height</td>
+					<td>The height in pixels of the scrolling area</td>
+					<td>Any positive valid integer value eg. 200</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_bgcolor</td>
+					<td>The background color</td>
+					<td>Any valid HTML color specification eg. #FFFFFF</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_bordercolor</td>
+					<td>The border color</td>
+					<td>Any valid HTML color specification eg. #8C8C8C</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_speed</td>
+					<td>Scrolling Speed. The figure here represents the number of milliseconds between each pixel movement of the scroll. The lower the value the faster the scroll.</td>
+					<td>Min Value: 10<br>Max Value: No maximum but anything above 100 will make the scroll extremely slow</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_borderwidth</td>
+					<td>The width of the border in pixels</td>
+					<td>Any positive valid integer value eg. 1</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_borderstyle</td>
+					<td>Sets the line style of the border</td>
+					<td>Values can be any valid CSS line style, eg. solid, dotted, dashed, double, groove, ridge, inset, outset</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_bordergap</td>
+					<td>Gap between the border and the scrolling content in pixels</td>
+					<td>Any positive valid integer value eg. 5</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_alignment</td>
+					<td>The default alignment of the scrolling content</td>
+					<td>Value can be one of left, center or right</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_pagepause</td>
+					<td>The number of seconds the scrolling should pause for between pages</td>
+					<td>Any positive value including zero. eg. 5</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_textcolor</td>
+					<td>Default text color of the scrolling content</td>
+					<td>Any valid HTML color specification eg. #000000</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_fontsize</td>
+					<td>Default Font Size in pixels</td>
+					<td>Any integer value 6 or greater</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_fontfamily</td>
+					<td>Default Font Face</td>
+					<td>Any valid HTML font face specification eg. arial, sans-serif</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_fontstyle</td>
+					<td>Default Font Style</td>
+					<td>Valid values are normal or italic</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_fontweight</td>
+					<td>Default Font Weight</td>
+					<td>Valid values are normal or bold</td>
+				</tr>
+				<tr>
+					<td>JPSCROLL_lkey</td>
+					<td>If the licensed version is being used then the license key should be supplied with this parameter</td>
+					<td>A valid license key</td>
+				</tr>
+			</table>
+
+		</div>
+
+
+
+        <div class="innermenu">
+            <ul>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/index.htm">Scrolling Text Home</a> </li>
+                <li> <a href="GettingStarted.htm"> Getting Started </a> </li>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/configurator.htm"> Configurator </a> </li>
+                <li> <a href="http://www.jpowered.com/javascript/scrolling-text/buynow.htm"> Licensing </a> </li>
+                <li> <a href="documentation.htm"> Documentation </a> </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <!-- Footer section -->
+    <div class="menuCell">
+          [<a href="http://www.jpowered.com"> Home </a>]
+          [<a href="http://www.jpowered.com/products.htm"> Products </a>]
+          [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>]
+          [<a href="http://www.jpowered.com/javascript/scrolling-text/buynow.htm"> Purchase </a>]
+          [<a href="http://www.jpowered.com/support.htm">Support </a>]
+    </div>
+    <div class="copyright"><img src="images/copyright.gif" width="450" height="25" alt="applet servlet bean javascript"></div>
+
+
+
+</div>
+</center>
+</body>
+</html>
